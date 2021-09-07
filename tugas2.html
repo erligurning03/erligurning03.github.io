@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey kepuasaan Pengunjung Website</title>
+    <style>
+            h1{
+                color: rgb(248, 36, 8);
+                font-family:verdana;
+            }
+            body{
+                background-color: rgb(216, 135, 162);
+                font-size: medium;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+    </style>
+</head>
+<body>
+    <table width="80%" height="80%">
+   <td colspan="2" height="10%" align="left"> <p><h1>Survey Kepuasan Pengunjung Website </h1></p></td>
+    <br>
+    <form action="action.php" method="POST" >
+
+            <tr> 
+                <td height="10%" width="20%"><label for="nama">Nama </label> </td>
+                <td heiht ="10%" width ="60%"><input type="text" id="nama"placeholder="masukkan nama anda"></td>  
+            </tr>
+            <br>
+            <tr>
+                <td height="10%" width="20%"> <label for="password">Password </label></td>
+                <td heiht ="10%" width ="60%"><input type="password" id="password" placeholder="password"></td>
+            </tr>
+            <br>
+            <tr>
+                <td height="10%" width="20%"><label for="email">Email</label></td>
+                <td heiht ="10%" width ="60%"><input type="text" id="email" placeholder="email"></td>
+            </tr>
+            <br>
+            <tr>
+                <td height="10%" width="20%"><label for="Tanggal">Tanggal</label></td>
+                <td heiht ="10%" width ="60%"><input type="text" id="Tanggal" placeholder="tanggal" ></td>
+            </tr>
+            <br>
+            <tr>
+                <td height="10%" width="20%"><label >Jenis kelamin </label></td>
+                <td heiht ="10%" width ="60%"><input type="radio" id="pria" name="jenis kelamin" :">
+                <label for="pria">pria</label>
+                <input type="radio" id="Tidak" name="Jenis Kelamin">
+                <label for="wanita">wanita</label> </td>
+            </tr>
+            <br>
+            <tr>
+                <td height="10%" width="20%"><label >Apakah Konten saya membantu? </label></td>
+                <td heiht ="10%" width ="60%"><input type="radio" id="Iya" name="Apakah Konten saya membantu? :">
+                <label for="Iya">Iya</label>
+                <input type="radio" id="Tidak" name="Apakah Konten saya membantu? :">
+                <label for="Tidak">Tidak</label> </td>
+            </tr>
+            <br>
+                <td height="10%" width="20%"><label >rekomendasi topik selanjutnya</label></td>
+                <td heiht ="10%" width ="60%"><input type="checkbox" id="manfaat buah Timun"><label for="manfaat buah Timun">manfaat Timun</label> 
+                <input type="checkbox" id=""><label for="Futsal">Futsal</label>
+                <input type="checkbox" id="teknik bernyanyi"><label for="teknik Bernyanyi">teknik Bernyanyi</label>
+                <input type="checkbox" id="budidaya kaktus"><label for="budidaya kaktus">budidaya kaktus</label>
+                <input type="checkbox" id="Basket"><label for="Basket">Basket</label></td>
+            <br>
+            <tr>
+                <td height="10%" width="20%"><label >Asal </label></td>   
+                <td heiht ="10%" width ="60%"><select >
+                <option >Banten </option>
+                <option >Jember </option>
+                <option >Medan </option>
+                <option >Jakarta </option>
+                <option >Solo </option>
+                <option >Yogyakarta </option>
+                <option > Palembang</option>
+                <option >Gorontalo </option>
+                <option >Samarinda </option>
+                <option > Denpasar</option>
+                <option >Tasik Malaya </option>
+                <option >Tangerang </option>
+                <option >Jambi </option>
+                <option >Semarang </option>
+                <option >Malang </option>
+            </select> </td>
+            </tr>
+            <br>
+            <tr>
+                <td height="10%" width="20%"><label for="text">Komentar </label></td>
+                <td heiht ="10%" width ="60%"><Textarea></Textarea></td>
+            </tr>
+            <br>
+            <tr>
+                <td colspan="2" height="10%" align="left" ><input type="reset" value="reset"></td>
+            </tr>
+            <tr>
+                <td colspan="2" height="10%" align="left" ><input type="submit" value="kirim!"></td>
+            </tr>
+    </form>
+</table>
+</body>
+</html>
